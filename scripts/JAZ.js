@@ -1,4 +1,6 @@
+$(document).ready(function(){
 $("#submit_btn").on("click", function(){
+    alert("CHECK");
     var person = $("#hisFig").value;
     var beginDate = $("#minYr").value;
     var endDate = $("#maxYr").value;
@@ -29,3 +31,5 @@ throw err;
 });
 
 })
+
+});
