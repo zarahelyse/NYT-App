@@ -1,0 +1,72 @@
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NYT APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets\css\style.css" /> -->
+    <!--link rel="stylesheet" type="text/css" media="screen" href="assets\css\reset.css" /-->
+    <!--script src="main.js"></script-->
+</head>
+<style>
+    .glyphicon {
+        top: 9px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>
+                <span class="glyphicon glyphicon-envelope"></span>NYT APP</h1>
+        </div>
+        <div class="row">
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Search Parameters</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    <div>Historical Figure</div>
+                </p>
+                <p>
+                    <input type="text" id="hisFig" placeholder="Kanye West..">
+                    <br>
+                </p>
+                <p>
+                    <div>Minimum Year</div>
+                </p>
+                <p>
+                    <input type="text" id="minYr" placeholder="Example: 1500">
+                    <br>
+                </p>
+                <p>
+                    <div>Maximum Year</div>
+                </p>
+                <p>
+                    <input type="text" id="maxYr" placeholder="Example: 2000">
+                    <br>
+                </p>
+                <button id="submit_btn">Submit</button>
+                <button id="clear_btn">Clear</button>
+            </div>
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Search Results</h3>
+            </div>
+            <div class="panel-body" id="results">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
